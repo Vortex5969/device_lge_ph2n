@@ -1,0 +1,3 @@
+add_lunch_combo lineage_ph2n-user
+add_lunch_combo lineage_ph2n-userdebug
+add_lunch_combo lineage_ph2n-eng

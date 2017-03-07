@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <item name="none">0</item>
+	<item name="screen.on">63</item>
+	<item name="screen.full">255</item>
+
+    <!-- Different CPU speeds as reported in
+         /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state -->
+    <array name="cpu.speeds.cluster0">
+		<value>960000</value>
+		<value>1094400</value>
+		<value>1209600</value>
+		<value>1248000</value>
+		<value>1344000</value>
+		<value>1401000</value>
+		<value>1497600</value>
+	</array>
+
+    <array name="cpu.speeds.cluster1">
+		<value>768000</value>
+		<value>902400</value>
+		<value>998400</value>
+		<value>1094400</value>
+		<value>1209600</value>
+	</array>
+
+    <array name="cpu.clusters.cores">
+        <value>4</value> <!-- BIG 	 -->
+        <value>4</value> <!-- little -->
+    </array>
+
+	<!-- Current when CPU is awake -->
+	<item name="cpu.awake">1.6</item>
+	<!-- Current when CPU is idle -->
+	<item name="cpu.idle">1.6</item>
+	<!-- This is the battery capacity in mAh (measured at nominal voltage) -->
+	<item name="battery.capacity">3200</item>
+</device>
